@@ -211,10 +211,6 @@ parts:
     organize:
       usr/lib/$SNAPCRAFT_ARCH_TRIPLET/**/*.so*: /usr/lib/$SNAPCRAFT_ARCH_TRIPLET
     prime:
-      - usr
-      - etc
-      - lib
-      - opt/RabbitRemoteControl
       - -opt/RabbitRemoteControl/bin/cmark
       - -opt/RabbitRemoteControl/include
       - -opt/RabbitRemoteControl/lib/cmake
